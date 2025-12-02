@@ -27,7 +27,7 @@ This example shows how PHP can be embedded inside HTML to automatically update t
     <p>Copyright <?php echo date('Y'); ?> © Example Company, LLC</p>
 </footer>
 ```
-This prevents outdated copyright years and eliminates the need for manual yearly edits.
+This prevents outdated copyright years and eliminates the need for those annual manual edits.
 
 Dynamic Footer: Display Most Recent Blog Post
 
