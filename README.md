@@ -20,6 +20,13 @@ This example shows how PHP can be embedded inside HTML to automatically update t
 
 Simple PHP Integration:
 
+ ```php
+
+<?php echo date('Y'); ?>
+
+```
+
+
 <footer>
  
  <p>&copy;  <?php echo date('Y'); ?> YourCompanyName. All rights reserved.?>
