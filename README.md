@@ -14,17 +14,19 @@ Features Demonstrated:
 
  - Creating maintainable, theme-safe customizations
 
-1. Dynamic Footer: Display Current Year
+Dynamic Footer: Display Current Year
 
 This example shows how PHP can be embedded inside HTML to automatically update the copyright year.
 
 Simple PHP Integration:
 
 <footer>
-    <p>&copy; <?php echo date('Y'); ?> YourCompanyName. All rights reserved.</p>
-</footer>
+ 
+ <p>&copy;  <?php echo date('Y'); ?> YourCompanyName. All rights reserved.?>
 
-2. Dynamic Footer: Display Most Recent Blog Post
+ <footer>
+
+Dynamic Footer: Display Most Recent Blog Post
 
 This snippet can be placed inside a theme file, such as footer.php, to pull and display the latest published WordPress blog post as follows:
 
