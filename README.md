@@ -41,23 +41,3 @@ This snippet can be placed inside a theme file, such as footer.php, to pull and 
     ?>
 </footer>
 
-3. Hook-Based Version (functions.php)
-
-For theme-safe, reusable functionality, this version hooks into the wp_footer action instead of editing template files directly.
-
-<?php
-function mytheme_latest_post_footer() {
-    $recent_post = wp_get_recent_posts(array('numberposts' => 1));
-    if (!empty($recent_post)) {
-        $post = $recent_post[0];
-        echo '<p>Latest post: <a href="' . get_permalink($post['ID']) . '">'
-            . esc_html($post['post_title']) . '</a></p>';
-    }
-}
-add_action('wp_footer', 'mytheme_latest_post_footer');
-
-<?php
-function mytheme_year_in_footer() {
-    echo '<p>&copy; ' . date('Y') . ' YourCompanyName. All rights reserved.</p>';
-}
-add_action('wp_footer', 'mytheme_year_in_footer');
