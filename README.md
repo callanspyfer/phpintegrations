@@ -12,7 +12,7 @@ The examples showcase:
 
  - Using WordPress core functions (wp_get_recent_posts, get_permalink, esc_html)
 
- - Adding dynamic content (e.g., current year, latest blog post)
+ - Adding dynamic content (e.g., current year, latest blog posts)
 
  - Creating maintainable, theme-safe customizations
 
