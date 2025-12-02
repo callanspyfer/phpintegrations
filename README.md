@@ -6,10 +6,6 @@ These examples reflect real-world edits made for client sites in industries such
 
 This repository aims to improve working knowledge of PHP and assist in the implementation of integrating PHP for dynamic elements within the WordPress theme architecture that enhance the user experience and retention, ultimately leading to more conversions.
 
-WordPress Theme Customization Examples (PHP Snippets)
-
-This repository contains real-world style WordPress/PHP customization examples demonstrating the ability to edit and enhance WordPress themes. These snippets reflect tasks typically performed in theme files such as footer.php, functions.php, or through small custom plugins.
-
 The examples showcase:
 
  - Injecting PHP inside HTML templates
