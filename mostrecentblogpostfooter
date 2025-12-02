@@ -1,0 +1,11 @@
+<footer>
+    <p>&copy; <?php echo date('Y'); ?> YourCompanyName. All rights reserved.</p>
+
+    <?php
+    $recent_post = wp_get_recent_posts(array('numberposts' => 1));
+    if (!empty($recent_post)) {
+        $post = $recent_post[0];
+        echo '<p>Latest post: <a href="' . get_permalink($post['ID']) . '">' . esc_html($post['post_title']) . '</a></p>';
+    }
+    ?>
+</footer>
