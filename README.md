@@ -65,7 +65,7 @@ Another common real-world customization is displaying a list of recent blog post
     <?php endif; ?>
 </footer>
 ```
-This snippet demonstrates how to use PHP within a WordPress theme to dynamically display the five most recent blog posts in the site footer. It retrieves published posts, outputs each title as a linked list item, and includes a button that directs users to the full blog archive. By rendering this content server-side, the footer remains automatically updated whenever new posts are published, improving navigation and ensuring the section stays current without manual maintenance.
+This example demonstrates how to use PHP within a WordPress theme to dynamically display the five most recent blog posts in the site footer. It retrieves published posts, outputs each title as a linked list item, and includes a button that directs users to the full blog archive. By rendering this content server-side, the footer remains automatically updated whenever new posts are published, improving navigation and ensuring the section stays current without manual maintenance.
 
 This example demonstrates:
 
@@ -77,4 +77,4 @@ This example demonstrates:
 
 These examples highlight PHP integrations within WordPress. PHP allows clean, dynamic implementations that enhance the user experience and support long-term site growth. 
 
-These snippets demonstrate the foundational framework to enhance WordPress themes in real-world environments. 
+These examples demonstrate the foundational framework to enhance WordPress themes in real-world environments. 
