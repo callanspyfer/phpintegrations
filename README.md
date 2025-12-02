@@ -29,7 +29,7 @@ Simple PHP Integration:
 
 <footer>
  
- <p>&copy;  <?php echo date('Y'); ?> YourCompanyName. All rights reserved.?>
+ <p>&copy;  <?php echo date('Y'); ?> YourCompanyName. Year. All rights reserved.
 
  <footer>
 
@@ -38,7 +38,7 @@ Dynamic Footer: Display Most Recent Blog Post
 This snippet can be placed inside a theme file, such as footer.php, to pull and display the latest published WordPress blog post as follows:
 
 <footer>
-    <p>&copy; <?php echo date('Y'); ?> YourCompanyName. All rights reserved.</p>
+    <p>&copy; <?php echo date('Y'); ?> YourCompanyName. Year. All rights reserved.</p>
 
     <?php
     $recent_post = wp_get_recent_posts(array('numberposts' => 1));
